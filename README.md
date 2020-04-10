@@ -39,6 +39,16 @@ git clone https://github.com/blockstack/stacks-blockchain.git
 cd stacks-blockchain
 ```
 
+We need to make one small change to the rust Cargo.toml file.
+
+Open up the Cargo.toml file in your favorite text editor and change the last line from this:
+
+`default = ["developer-mode", "asm"]`
+
+to this:
+
+`default = ["developer-mode", "sha2"]`
+
 Then build the project:
 
 #### Build with cross
