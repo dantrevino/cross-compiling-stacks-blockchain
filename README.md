@@ -1,3 +1,7 @@
+# These instructions are now deprecated.  @blockstack is making binaries available for armv7 and arm64 from their repo. 
+
+==============================================
+
 # Cross-Compiling Stacks 2.0 for Raspberry Pi and low memory devices
 
 ## Notice
